@@ -53,3 +53,12 @@ p{
     color:white;
     background-color:red;
 }
+#button:hover {
+    color:blue;
+}
+h3{
+    margin-top: .4rem;
+    font-size: 1.75rem;
+    color:green;
+    background-color:white ;
+}
