@@ -18,7 +18,7 @@ body,
    gap: 10rem;
    margin-right:10px;
    margin-right:10px;
-   
+
 }
 .vehicle{
     font-family: 'Audiowide', cursive;
@@ -53,9 +53,40 @@ p{
     color:white;
     background-color:red;
 }
-#button:hover {
-    color:blue;
+
+#vespa:hover {
+    -webkit-transition: all 1.2s ease-in-out;
+    transform: skew(5deg,5deg);
+    transition-delay: .5s;
 }
+#tescos:hover {
+
+    transform: translate(0,30px) rotate(1turn) scale(1.5,2);
+    -webkit-transition: all 2s ease-in-out;
+    transition-delay: .5s;
+
+}
+#subsidy:hover {
+
+    transform: translateY(20px) scale(1,3);
+    -webkit-transition: all 2s ease-in-out;
+    transition-delay: .5s;
+
+}
+#xf85:hover {
+    -webkit-transition: all 1.2s ease-in-out;
+    transform: translate(0px, 20px) scale(3,3);
+    transition-delay: .5s;
+
+}   
+#wagon:hover {
+
+    transform: translate(50px,60px) rotate(1.05turn) scale(1.25,1.25);
+    -webkit-transition: all 2s ease-in-out;
+    transition-delay: .5s;
+
+}
+
 h3{
     margin-top: .4rem;
     font-size: 1.75rem;
