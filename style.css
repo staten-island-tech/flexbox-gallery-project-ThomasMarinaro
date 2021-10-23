@@ -90,7 +90,7 @@ p{
 
 }
 #xf85:hover {
-    -webkit-transition: all 2s ease-in-out;
+    -webkit-transition: all 1.2s ease-in-out;
     transform: translate(0px, 20px) scale(3,3);
     transition-delay: .5s;
 
@@ -109,8 +109,7 @@ h3{
     color:green;
     background-color:white ;
     transition-duration: 2s;
-<<<<<<< Updated upstream
 }
-=======
+@media screen {
+    
 }
->>>>>>> Stashed changes
